@@ -2,7 +2,7 @@
 
 [Original test report](https://docs.google.com/document/d/188b_UX_jMUF5VH1Q4yGQT1vFHNa87Oas8NXphapZJuY/edit) · [All test reports](../test-reports/README.md) · [Bug report index](README.md)
 
-Extracted from the source report on 2026-11-02. Original bug IDs, stated expectations, severity, reproducibility, and evidence text are retained; no fix retest is implied. Embedded screenshots and video placeholders are not copied by this text extraction; see the original document for available images. Blank fields are marked explicitly.
+Original bug IDs, stated expectations, severity, reproducibility, and evidence text are retained; no fix retest is implied. Embedded screenshots and video placeholders are not copied by this text extraction; see the original document for available images. Blank fields are marked explicitly.
 
 Environment from the source: BUGGY firmware, Python 3.15.1, pytest 9.1.1, pyserial 3.5, Serial 115200, DEVICE_PORT `rfc2217://localhost:4000`. The source leaves STATUS PWM units unspecified and does not rule out communication truncation for GET TEMP.
 
@@ -250,7 +250,6 @@ ______________ test_temperature_response ___________
 ………..
 ……….
 ………..
-
 
 self = <device.Device object at 0x105bc1cc0>, command = 'GET TEMP'
 
