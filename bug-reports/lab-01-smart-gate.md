@@ -83,10 +83,6 @@ Switch between OPENING and CLOSING is immediate
 
 5/5
 
-### Evidence
-
-“I would attach video of simulation”
-
 
 ## BUG-03 — ERROR status is not activated when OPENING > 10 sec
 
@@ -119,12 +115,6 @@ OPENING status
 
 5/5
 
-### Evidence
-
-```text
-“I would attach video of simulation”
-Can be related to BUG-01
-```
 
 
 ## BUG-04 — ERROR status is not activated when both LIMITS are active
@@ -159,11 +149,8 @@ Relay OFF, warning in logs, BUT not ERROR status
 
 ### Evidence
 
-```text
-“I would attach video of simulation”
 LOGS:
 WARNING: both limit switches active
-```
 
 
 ## BUG-05 — STOP button changes status from ERROR|OPEN|CLOSED
@@ -195,10 +182,6 @@ System in STOPPED status
 ### Reproducibility
 
 5/5
-
-### Evidence
-
-“I would attach video of simulation”
 
 
 ## BUG-06 — Reset and Stop commands should appear in logs when does not influence system
@@ -234,7 +217,6 @@ Nothing in logs
 ### Evidence
 
 ```text
-“I would attach video of simulation”
 LOGS:
 STATE: CLOSED -> STOPPED
 COMMAND: S
@@ -272,7 +254,4 @@ System in STOPPED. OPEN LED is ON
 
 5/5
 
-### Evidence
-
-Not specified in the source text. See the original report for any embedded evidence.
 
