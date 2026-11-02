@@ -2,7 +2,7 @@
 
 [Original test report](https://docs.google.com/document/d/1mMwtw9YUV-qiAuHMGlWaU8QaRK1wLnRnp5C-2thL3_s/edit) · [All test reports](../test-reports/README.md) · [Bug report index](README.md)
 
-Extracted from the source report on 2026-11-02. Original bug IDs, stated expectations, severity, reproducibility, and evidence text are retained; no fix retest is implied. Embedded screenshots and video placeholders are not copied by this text extraction; see the original document for available images. Blank fields are marked explicitly.
+Original bug IDs, stated expectations, severity, reproducibility, and evidence text are retained; no fix retest is implied. Embedded screenshots and video placeholders are not copied by this text extraction; see the original document for available images.
 
 ## BUG-01 — System freezes after connection to I2C periphery is lost
 
