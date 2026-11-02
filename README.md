@@ -25,4 +25,4 @@ Testing includes state transitions, boundary and negative cases, protocol analys
 
 ## Scope
 
-These are educational projects using intentionally buggy firmware. My work focuses on test design, execution, automation extensions, evidence analysis, and reporting. Results primarily come from Wokwi simulation; Lab 7 models network/MQTT behavior without a real broker connection.
+These are educational projects using intentionally buggy firmware. My work focuses on test design, execution, automation extensions, evidence analysis, and reporting. Results primarily come from Wokwi simulation.
