@@ -23,7 +23,7 @@ The selected transaction spans approximately **12.526589–12.527149 s** in capt
 
 ![I2C address 0x69 receives NACK after simulated failure](screenshots/02-communication-after-failure.png)
 
-The decoded sequence shows START → **0x69 + Write → NACK** → STOP. The addressed device does not acknowledge the request. **0x69 is a device address, not a register address**, and differs from the expected 0x68.
+The decoded sequence shows START → **0x69 + Write → NACK** → STOP. The addressed device does not acknowledge the request. 0x69 differs from the expected 0x68.
 
 The selected transaction spans approximately **13.527589–13.527694 s** in capture time (displayed selection duration: **104.35 µs**). These are selection boundaries, not an exact NACK timestamp or a measurement of the recovery interval.
 
