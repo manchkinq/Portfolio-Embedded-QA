@@ -2,9 +2,7 @@
 
 [Original test report](https://docs.google.com/document/d/1PiFFS-wlG33fqmrNn2XvBdExLiEm5MU6Nybptxeibgs/edit) · [All test reports](../test-reports/README.md) · [Bug report index](README.md)
 
-Extracted from the source report on 2026-11-02. Original bug IDs, stated expectations, severity, reproducibility, and evidence text are retained; no fix retest is implied. Embedded screenshots and video placeholders are not copied by this text extraction; see the original document for available images. Blank fields are marked explicitly.
-
-The source report has no bug ID for its single defect; BUG-01 is assigned here for navigation. The source actual-result sentence ends with “LED” and is retained as written.
+ Original bug IDs, stated expectations, severity, reproducibility, and evidence text are retained; no fix retest is implied. Embedded screenshots and video placeholders are not copied by this text extraction; see the original document for available images. Blank fields are marked explicitly.
 
 ## BUG-01 — Extra logical event when there is noise during critical operation
 
@@ -26,7 +24,7 @@ Noise does not lead to extra logical event during critical operation
 
 ### Actual Result
 
-Noise creates an extra logical event during critical operation. LED
+Noise creates an extra logical event during critical operation.
 
 ### Evidence
 
