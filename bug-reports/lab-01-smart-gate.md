@@ -2,6 +2,7 @@
 
 [Original test report](https://docs.google.com/document/d/1RnQ53j7FTkc4PFf75_F1NkKhJpfTR6eCDeyq4Qgv_og/edit) · [All test reports](../test-reports/README.md) · [Bug report index](README.md)
 
+Original bug IDs, stated expectations, severity, reproducibility, and evidence text are retained; no fix retest is implied. Embedded screenshots and video placeholders are not copied by this text extraction; see the original document for available images. Blank fields are marked explicitly.
 
 ## BUG-01 — Can't reach OPEN state after pressing LIMIT_OPEN in OPENING status
 
