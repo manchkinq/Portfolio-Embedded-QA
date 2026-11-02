@@ -2,7 +2,7 @@
 
 [Original test report](https://docs.google.com/document/d/18KPHyfEkjMFHiidPlZD5t6V4S-TQKVWjVD0pNDTMhGE/edit) · [All test reports](../test-reports/README.md) · [Bug report index](README.md)
 
-Extracted from the source report on 2026-11-02. Original bug IDs, stated expectations, severity, reproducibility, and evidence text are retained; no fix retest is implied. Embedded screenshots and video placeholders are not copied by this text extraction; see the original document for available images. Blank fields are marked explicitly.
+Original bug IDs, stated expectations, severity, reproducibility, and evidence text are retained; no fix retest is implied. Embedded screenshots and video placeholders are not copied by this text extraction; see the original document for available images.
 
 ## BUG-01 — Sleep time is 10 times less than input value
 
@@ -251,10 +251,6 @@ Always one physical press = one logical event
 
 Sometimes after one physical button press there are two logical events
 
-### Evidence
-
-evidence4*
-
 ### Severity
 
 Major
@@ -326,20 +322,10 @@ E (99544) task_wdt: Tasks currently running:
 E (99544) task_wdt: CPU 0: IDLE0
 E (99544) task_wdt: CPU 1: loopTask
 E (99544) task_wdt: Aborting.
-
-
 abort() was called at PC 0x400dbf11 on core 0
-
-
 Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
-
-
 ELF file SHA256: eb097c4b0755de0a
-
-
 ets Jul 29 2019 12:21:46
-
-
 rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
 configsip: 0, SPIWP:0xee
 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
@@ -399,12 +385,9 @@ entry 0x400805dc
 
 evidence3
   
-
 Errors that indicates sensor failure are absent:
 
-
 ets Jul 29 2019 12:21:46
-
 
 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
 configsip: 0, SPIWP:0xee
@@ -431,31 +414,7 @@ entry 0x400805dc
 [SENSOR] temp=0.0C humidity=0.0%
 
 
-evidence4*
-(I would attach video for better visualize, but there is no possibility here)
-Before press:
-  
-Moment of press
-  
-
-After press
-  
-
-
-
-LOGS:
-
-[STORE] saved
-[BUTTON] relay=ON
-                 [STORE] saved
-[BUTTON] relay=OFF
-
-
-
-
 evidence5*
-
-
 LOGS:
 sleep
 [STORE] saved
